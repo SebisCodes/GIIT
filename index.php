@@ -224,9 +224,12 @@
   
 	  <!-- Right -->
 	  <div class="mx-auto text-center">
-		<a href="https://github.com/sebiscodes" class="p-3" target="_blank"><i class="icon fab icon-lg fa-github"></i></a> 
-		<a href="https://www.instagram.com/sebisprojects/" class="p-3" target="_blank"><i class="icon fab icon-lg fa-instagram"></i></a> 
-		<a href="https://www.linkedin.com/in/sebastian-gr%C3%BCnwald-4b05b1137" class="p-3" target="_blank"><i class="icon icon-lg fab fa-linkedin"></i></a>
+		<p>
+			<a href="https://github.com/sebiscodes" class="p-3" target="_blank"><i class="icon fab icon-lg fa-github"></i></a> 
+			<a href="https://www.instagram.com/sebisprojects/" class="p-3" target="_blank"><i class="icon fab icon-lg fa-instagram"></i></a> 
+			<a href="https://www.linkedin.com/in/sebastian-gr%C3%BCnwald-4b05b1137" class="p-3" target="_blank"><i class="icon icon-lg fab fa-linkedin"></i></a>
+		</p>
+		<i>This website is <a href="https://github.com/SebisCodes/GIIT" target="_blank">open-source</a></i>
 	  </div>
 	  <!-- Right -->
 	</section>
