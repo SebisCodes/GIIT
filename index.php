@@ -94,6 +94,10 @@
 			.qr {
 				max-width:25%;
 			}
+			.img-fadeborder {
+				box-shadow: inset 0 0 10px #311b0b;
+
+			}
 		</style>
 	</head>
 	<body class="text-bg-dark">
@@ -122,7 +126,7 @@
 				</p>
 			  </div>
 			  <div class="col-xl my-auto vw-50 bg-black">
-				<img class="img-fluid img-fit" src="./src/img/p1.jpg" alt="">
+				<img class="img-fluid img-fit img-fadeborder" src="./src/img/p1.jpg" alt="">
 			  </div>
 			</div>
 		</div>
@@ -150,7 +154,7 @@
 					</p>
 				</div>
 				<div class="col-xl my-auto vw-50 bg-black">
-				  <img class="img-fluid img-fit" src="./src/img/p2.jpg" alt="">
+				  <img class="img-fluid img-fit img-fadeborder" src="./src/img/p2.jpg" alt="">
 				</div>
 			</div>
 		</div>
@@ -169,7 +173,7 @@
 				  </p>
 			  </div>
 			  <div class="col-xl my-auto vw-50 bg-black">
-				<img class="img-fluid img-fit" src="./src/img/p3.jpg" alt="">
+				<img class="img-fluid img-fit img-fadeborder" src="./src/img/p3.jpg" alt="">
 			  </div>
 		  </div>
 	  </div>
@@ -188,7 +192,26 @@
 			  </p>
 		  </div>
 		  <div class="col-xl my-auto vw-50 bg-black">
-			<img class="img-fluid img-fit" src="./src/img/p4.jpg" alt="">
+			<img class="img-fluid img-fit img-fadeborder" src="./src/img/p4.jpg" alt="">
+		  </div>
+	  </div>
+	  </div>
+	  
+	  <div class="cover-container vw-100 bg-black d-flex" id="pr">
+		<!-- Side by side -->
+		<div class="row d-flex vw-100">
+		  <div class="col-xl my-auto vw-50 p-8">
+			  <p>
+				  	<img class="text-left" src="./src/img/Logo_Transparent.svg" width="64px" alt="Logo">
+					 <a href="./?lang=en#pr" class="text-decoration-underline ms-3">EN</a> 
+					 <a href="./?lang=de#pr" class="text-decoration-underline">DE</a>
+			  </p>
+			  <p class="p-3">
+						<?php echo $myTempMgr->Template_Pricing($lang);?>
+			  </p>
+		  </div>
+		  <div class="col-xl my-auto vw-50 bg-black">
+			<img class="img-fluid img-fit img-fadeborder" src="./src/img/p5.jpg" alt="">
 		  </div>
 	  </div>
   	</div>
