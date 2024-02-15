@@ -63,10 +63,10 @@ class MyTemplateManager {
         $s = "";
         switch($language) {
             case 'de':
-                $s = "Programmiersprachen, Sprachen, Angebot, C, C#, Java, Javascript, HTML, CSS, PHP, Python, VB. NET, VBA, VBA, Microsoft, Power, Fx, Automatisieren, Apps, Dienstleistungen, Programmieren, Angebot, Reparatur, Startup, Grünwald, Grünwald, Innovation, Beratung, Support, Autodesk, Inventor, AutoCAD, Siemens, NX, UG, Office, Word, Excel, PowerPoint, Outlook, 365, Arduino, Zwiebel, Omega, Raspberry, PI, STM, STM32, Android, Windows, Linux, Geräte, Desktop, Web, Anfrage, Made, in, Schweiz, Schweizer";
+                $s = "Programmiersprachen, Sprachen, Angebot, C, C#, Java, Javascript, HTML, CSS, PHP, Python, VB. NET, VBA, VBA, Microsoft, Power, Fx, Automatisieren, Apps, Dienstleistungen, Programmieren, Angebot, Reparatur, Startup, Gr&uuml;nwald, Gr&uuml;nwald, Innovation, Beratung, Support, Autodesk, Inventor, AutoCAD, Siemens, NX, UG, Office, Word, Excel, PowerPoint, Outlook, 365, Arduino, Zwiebel, Omega, Raspberry, PI, STM, STM32, Android, Windows, Linux, Ger&auml;te, Desktop, Web, Anfrage, Made, in, Schweiz, Schweizer";
                 break;
             default:
-                $s = "Languages, Offer, C, C#, Java, Javascript, HTML, CSS, PHP, Python, VB.NET, VBA, VBA, Microsoft, Power, Fx, Automate, Apps, Services, Programmming, Offer, Repair, Startup, Grünwald, Gruenwald, Innovation, Consulting, Support, Autodesk, Inventor, AutoCAD, Siemens, NX, UG, Office, Word, Excel, PowerPoint, Outlook, 365, Arduino, Onion, Omega, Raspberry, PI, STM, STM32, Android, Windows, Linux, Devices, Desktop, Web, Request, Made, in, Switzerland, Swiss";
+                $s = "Languages, Offer, C, C#, Java, Javascript, HTML, CSS, PHP, Python, VB.NET, VBA, VBA, Microsoft, Power, Fx, Automate, Apps, Services, Programmming, Offer, Repair, Startup, Gr&uuml;nwald, Gruenwald, Innovation, Consulting, Support, Autodesk, Inventor, AutoCAD, Siemens, NX, UG, Office, Word, Excel, PowerPoint, Outlook, 365, Arduino, Onion, Omega, Raspberry, PI, STM, STM32, Android, Windows, Linux, Devices, Desktop, Web, Request, Made, in, Switzerland, Swiss";
                 break;
             }
         return $s;
@@ -81,7 +81,7 @@ class MyTemplateManager {
         $s = "";
         switch($language) {
             case 'de':
-                $s = "Gruenwald Innovation - Lassen Sie Software made in Switzerland für sich arbeiten. Wir bieten Dienstleistungen wie Gerätereparaturen, Programmierung, Beratung und Support.";
+                $s = "Gruenwald Innovation - Lassen Sie Software made in Switzerland f&uuml;r sich arbeiten. Wir bieten Dienstleistungen wie Ger&auml;tereparaturen, Programmierung, Beratung und Support.";
                 break;
             default:
                 $s = "Gruenwald Innovation - Let software made in Switzerland work for you. We offer services like device repairs, programming, consulting and support.";
@@ -101,14 +101,14 @@ class MyTemplateManager {
             case 'de':
                 $iTag->append('Programmierung, Automatisierung, Beratung, Support und Ger&auml;tereparaturen.');
                 $iTag->append('<br /><br />');
-                $iTag->append('Mit meiner fundierten und vielseitigen Erfahrung seit 2015 in verschiedensten Projekten im privaten und beruflichen Umfeld biete ich Ihnen massgeschneiderte L&ouml;sungen f&uuml;r Ihre Automatisierungsaufgaben auf h&ouml;chstem Niveau.');
+                $iTag->append('Mit unserer fundierten und vielseitigen Erfahrung seit 2015 in verschiedensten Projekten im privaten und beruflichen Umfeld bieten wir Ihnen massgeschneiderte L&ouml;sungen f&uuml;r Ihre Automatisierungsaufgaben auf h&ouml;chstem Niveau.');
                 $iTag->append('<br /><br /><br />');
                 $iTag->append('Lassen Sie Software f&uuml;r sich arbeiten!');
                 break;
             default:
                 $iTag->append('Programming, Automation, Consulting, Support and Device Repair.');
                 $iTag->append('<br /><br />');
-                $iTag->append('Utilizing my extensive and in-depth IT skills acquired from various projects in both personal and professional settings since 2015, I can provide you with customized and cutting-edge solutions for your automation challenges.');
+                $iTag->append('Utilizing our extensive and in-depth IT skills acquired from various projects in both personal and professional settings since 2015, we can provide you with customized and cutting-edge solutions for your automation challenges.');
                 $iTag->append('<br /><br /><br />');
                 $iTag->append('Let software work for you!');
                 break;
@@ -163,59 +163,59 @@ class MyTemplateManager {
         $urlTags = array(
             'Inv_UpdateTitleBlock' => (New MyTag('a'))
             ->setValue('Github')
-            ->addAttr('target','blank')
+            ->addAttr('target','_blank')
             ->addAttr('href', 'https://github.com/SebisCodes/VBAScripts/tree/main/Autodesk%20Inventor/UpdateTitleblock')
             ->getText(),
             'Inv_AutomaticPiping' => (New MyTag('a'))
             ->setValue('Instagram')
-            ->addAttr('target','blank')
+            ->addAttr('target','_blank')
             ->addAttr('href', 'https://www.instagram.com/p/Cbp_JtUPpzc/?next=%2Fsebisprojects%2F')
             ->getText(),
             'Inv_ImportSTEP' => (New MyTag('a'))
             ->setValue('Github')
-            ->addAttr('target','blank')
+            ->addAttr('target','_blank')
             ->addAttr('href', 'https://github.com/SebisCodes/VBAScripts/tree/main/Autodesk%20Inventor/AssemblyToPart')
             ->getText(),
             'ACAD_SHXRemoval' => (New MyTag('a'))
             ->setValue('Github')
-            ->addAttr('target','blank')
+            ->addAttr('target','_blank')
             ->addAttr('href', 'https://github.com/SebisCodes/PythonScripts/tree/main/SHXtoText')
             ->getText(),
             'ACAD_MergePDF' => (New MyTag('a'))
             ->setValue('Github')
-            ->addAttr('target','blank')
+            ->addAttr('target','_blank')
             ->addAttr('href', 'https://github.com/SebisCodes/PythonScripts/tree/main/PDF%20Merge')
             ->getText(),
             'Excel_PivotEdit' => (New MyTag('a'))
             ->setValue('Github')
-            ->addAttr('target','blank')
+            ->addAttr('target','_blank')
             ->addAttr('href', 'https://github.com/SebisCodes/VBAScripts/tree/main/Excel/PivotTableDirectEdit')
             ->getText(),
             'Outl_UnsubscribeList' => (New MyTag('a'))
             ->setValue('Github')
-            ->addAttr('target','blank')
+            ->addAttr('target','_blank')
             ->addAttr('href', 'https://github.com/SebisCodes/VBAScripts/tree/main/Outlook')
             ->getText(),
             'Web_LearningApps' => (New MyTag('a'))
             ->setValue('Github')
-            ->addAttr('target','blank')
+            ->addAttr('target','_blank')
             ->addAttr('href', 'https://github.com/SebisCodes/LearningApps')
             ->getText(),
             'Web_QR-ID.io' => (New MyTag('a'))
             ->setValue('Github')
-            ->addAttr('target','blank')
+            ->addAttr('target','_blank')
             ->addAttr('href', 'https://github.com/SebisCodes/qr-id.io')
             ->getText(),
             'Web_GIIT' => (New MyTag('a'))
             ->setValue('Github')
-            ->addAttr('target','blank')
+            ->addAttr('target','_blank')
             ->addAttr('href', 'https://github.com/SebisCodes/GIIT')
             ->getText()
         );
 
         switch($language) {
             case 'de':
-                $tMainTag->setValue('Beispiele f&uuml;r Programmierungsaufträge');
+                $tMainTag->setValue('Beispiele f&uuml;r Programmierungsauftr&auml;ge');
 
                 $tTag = new MyTag(''); //Title List Tag
                 $olTag = new MyTag('ul'); //Outer List Tag
@@ -383,32 +383,32 @@ class MyTemplateManager {
         $urlTags = array(
             'Arduino_IrrigaionSystem' => (New MyTag('a'))
             ->setValue('Github')
-            ->addAttr('target','blank')
+            ->addAttr('target','_blank')
             ->addAttr('href', 'https://github.com/SebisCodes/Irrigation_System_Firmware')
             ->getText(),
             'Arduino_EMT' => (New MyTag('a'))
             ->setValue('Github')
-            ->addAttr('target','blank')
+            ->addAttr('target','_blank')
             ->addAttr('href', 'https://github.com/SebisCodes/EnvironmentalMeasuringTool_Firmware')
             ->getText(),
             'Arduino_GCodeInterpreter' => (New MyTag('a'))
             ->setValue('Github')
-            ->addAttr('target','blank')
+            ->addAttr('target','_blank')
             ->addAttr('href', 'https://github.com/SebisCodes/SebisSerialInterpreter')
             ->getText(),
             'STM32_StairsclimbingRobot' => (New MyTag('a'))
             ->setValue('Github')
-            ->addAttr('target','blank')
+            ->addAttr('target','_blank')
             ->addAttr('href', 'https://github.com/SebisCodes/Stairsclimbingrobot_Firmware')
             ->getText(),
             'ACAD_SHXRemoval' => (New MyTag('a'))
             ->setValue('Github')
-            ->addAttr('target','blank')
+            ->addAttr('target','_blank')
             ->addAttr('href', 'https://github.com/SebisCodes/PythonScripts/tree/main/SHXtoText')
             ->getText(),
             'ACAD_MergePDF' => (New MyTag('a'))
             ->setValue('Github')
-            ->addAttr('target','blank')
+            ->addAttr('target','_blank')
             ->addAttr('href', 'https://github.com/SebisCodes/PythonScripts/tree/main/PDF%20Merge')
             ->getText()
         );
@@ -494,7 +494,86 @@ class MyTemplateManager {
         }
         return $mainList->getText();
     }
-    
+    /**
+     * A function to get a template 
+     *
+     * @param string $language Language string (de, en, de-ch, ...)
+     * @return string The HTML-Text in the prefered language
+     */
+    public function Template_Pricing($language) {
+        $tMainTag = new MyTag('b'); //Title List Tag
+        $olMainTag = new MyTag('ul'); //Outer List Tag
+        $ilMainTag = new MyTag('li'); //Inner List Tag
+        $mainList = new MyList($tMainTag, $olMainTag, $ilMainTag);
+        $smallTag = new MyTag('small');
+
+        switch($language) {
+            case 'de':
+                $tMainTag->setValue('Preisgestaltung');
+
+                $tTag = new MyTag(''); //Title List Tag
+                $olTag = new MyTag('ul'); //Outer List Tag
+                $ilTag = new MyTag('li'); //Inner List Tag
+                $list = new MyList($tTag, $olTag, $ilTag);
+                
+                $tTag->setValue('Generelles zur Preisgestaltung');
+                $list->remRows();
+                $list->addRow('Die Preisgestaltung ist so einzigartig wie Ihr Projekt! Sie basiert auf Faktoren wie Art, Dauer, Komplexit&auml;t und Frist Ihres Auftrags.');
+                $list->addRow('Erfolg und Wachstum unserer Kunden ist uns wichtig. Daher bieten wir Studenten, Privatpersonen und kleinen innovativen Startups sowie besonders erfolgsversprechenden lizenzbasierten Projekten von Kunden aller Art besonders attraktive Rabatte.');
+                $mainList->addRow($list->getText());
+
+                $tTag->setValue('Pauschalkosten');
+                $list->remRows();
+                $list->addRow('Geniessen Sie die Sicherheit unserer attraktiven Pauschalkosten - planbar und risikofrei. Mit uns haben Sie volle Kostenkontrolle und k&ouml;nnen Ihr Budget optimal einsetzen.');
+                $mainList->addRow($list->getText());
+                
+                $tTag->setValue('Stundenbasis');
+                $list->remRows();
+                $list->addRow('Wir bieten Ihnen die M&ouml;glichkeit, Auftr&auml;ge ganz klassisch auf Stundenbasis abzurechnen! Dies garantiert Ihnen maximale Transparenz und Kontrolle. Sie zahlen nur f&uuml;r die effektiv geleistete Arbeit, kein Cent mehr.');
+                $mainList->addRow($list->getText());
+                
+                $tTag->setValue('Lizenzbasis');
+                $list->remRows();
+                $list->addRow('Haben Sie ein begrenztes Budget, aber dennoch den Wunsch, ein erfolgversprechendes Projekt zu realisieren? Nutzen Sie unsere attraktiven und risikofreien Lizenzvertr&auml;ge! Bei uns steht der Erfolg Ihres Projekts im Vordergrund, nicht die geleistete Arbeit. Die Preisgestaltung wird individuell verhandelt und richtet sich nach Faktoren, die den Erfolg der Software bestimmen, wie z.B. durch eine Webseite erhaltene Auftr&auml;ge oder nach Nutzung einer Schnittstelle. Sie haben jederzeit die M&ouml;glichkeit, sich aus einem Lizenzvertrag freizukaufen und alle Rechte im Rahmen der Vereinbarung f&uuml;r sich zu beanspruchen.');
+                $mainList->addRow($list->getText());
+                
+                $smallTag->setValue('*Ob Pauschalkosten in Frage kommen muss individuell betrachtet werden.');
+                break;
+            default: //en
+                $tMainTag->setValue('Pricing');
+
+                $tTag = new MyTag(''); //Title List Tag
+                $olTag = new MyTag('ul'); //Outer List Tag
+                $ilTag = new MyTag('li'); //Inner List Tag
+                $list = new MyList($tTag, $olTag, $ilTag);
+                
+                $tTag->setValue('General Pricing Information');
+                $list->remRows();
+                $list->addRow('Our pricing is tailored to the individual needs of each project, taking into account factors such as the type, duration, complexity, and deadline of the assignment!');
+                $list->addRow('Students, private individuals, and small startups, as well as particularly promising license-based projects, can especially benefit from substantial discounts! We’re committed to supporting your success and growth.');
+                $mainList->addRow($list->getText());
+
+                $tTag->setValue('Flat Rate Costs');
+                $list->remRows();
+                $list->addRow('Take advantage of our attractive flat rate costs - predictable and risk-free. With us, you have full cost control and can optimally allocate your budget.');
+                $mainList->addRow($list->getText());
+                
+                $tTag->setValue('Stundenbasis');
+                $list->remRows();
+                $list->addRow('We offer the option to bill orders on a traditional hourly basis! This ensures maximum transparency and control. You only pay for the work effectively done, not a cent more.');
+                $mainList->addRow($list->getText());
+                
+                $tTag->setValue('Pay ');
+                $list->remRows();
+                $list->addRow('Do you have a limited budget but still want to realize a project with promising success? Take advantage of our attractive and risk-free license agreements! Our pricing is tailored to your unique needs and is influenced by the success factors of your software, like the orders you receive through the website we delivered or the use of an API. Plus, you always have the freedom to buy out of a license agreement and claim all the rights within the agreement. Your success is our success!');
+                $mainList->addRow($list->getText());
+                
+                $smallTag->setValue('*Whether flat rate costs are applicable must be considered on an individual basis.');
+            break;
+        }
+        
+        return $mainList->getText().$smallTag->getText();
+    }
     /**
      * A function to get a template 
      *
@@ -503,7 +582,7 @@ class MyTemplateManager {
      */
     public function Template_RequestAnOffer($language) {
         $a_Tag = (new MyTag('a'))
-        ->addAttr('target','blank')
+        ->addAttr('target','_blank')
         ->addAttr('class',' text-decoration-none')
         ->addAttr('href', 'https://forms.office.com/Pages/ResponsePage.aspx?id=RY2eRvNCY0WDdGsJN27jWVtEzdGovTVGlVBx-J3FmFRUNVNPQzIwWjRYMVE4SVFTWFYxQ1c3Ukg2RyQlQCN0PWcu');
         $img_Tag = (new MyTag('img'))
@@ -542,7 +621,7 @@ class MyTemplateManager {
      */
     public function Template_SeeAlsoQRID($language) {
         $a_Tag = (new MyTag('a'))
-        ->addAttr('target','blank')
+        ->addAttr('target','_blank')
         ->addAttr('class',' text-decoration-none')
         ->addAttr('href', 'https://qr-id.io');
         $img_Tag = (new MyTag('img'))
@@ -586,7 +665,7 @@ class MyTemplateManager {
         
         $ps_aTag = ((New MyTag('a'))
         ->setValue('./Privacy_Statement.pdf')
-        ->addAttr('target','blank')
+        ->addAttr('target','_blank')
         ->addAttr('href', './Privacy_Statement.pdf'));
 
         $outputText .= $hTag->getText();
